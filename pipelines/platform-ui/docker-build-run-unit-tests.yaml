@@ -645,10 +645,10 @@ spec:
         name: unit-tests
         computeResources:
           requests:
-            memory: 4Gi
+            memory: 6Gi
             cpu: 2000m
           limits:
-            memory: 4Gi
+            memory: 6Gi
             cpu: 2000m
         securityContext:
           runAsUser: 0
